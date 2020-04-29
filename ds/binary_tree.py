@@ -7,16 +7,16 @@ class TreeNode:
         self.right = None
 
 TreeNode("Virginia M. Rometty")
-TreeNode.left = 
+TreeNode.left =
 
 # create a binary tree
 class BinaryTree:
     def __init__(self):
         TreeNode("Virginia M. Rometty")
-        TreeNode.left = 
-    
+        TreeNode.left =
+
     def insert(root, left_node, right_node):
-        self.value = 
+        self.value =
         self.left = left_node
         self
 
