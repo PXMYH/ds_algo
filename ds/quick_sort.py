@@ -11,6 +11,8 @@ def partition(left, right, pivot_index):
             store_index += 1
 
     # 3. move pivot to its final place
+    # remember, at this time, pivot is at the end of the array
+    # because we swapped it at the start of partitioning algo
     nums[right], nums[store_index] = nums[store_index], nums[right]
 
     return store_index
